@@ -25,6 +25,7 @@ header {
     display: flex;
     align-items: center;
     padding: 15px;
+    width: 84%;
 }
 header > a {
     width: 33.33%;
@@ -45,6 +46,7 @@ h1, p {
 }
 .card-container {
     margin: 0 auto;
+    width: 80%;
 }
 .world {
     color: blue;
@@ -100,7 +102,7 @@ ul {
                    break-inside: avoid;
   }
 
-  @media only screen and (max-width: 700px) {
+  @media only screen and (max-width: 800px) {
     ul {
         -webkit-columns: 1;
            -moz-columns: 1;
