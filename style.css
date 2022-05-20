@@ -45,27 +45,27 @@ h1, p {
 .world {
     color: blue;
     position: absolute;
-    top: 0;
+    top: 5px;
     left: 0;
     padding: 10px;
 }
 .design {
     color: green;
     position: absolute;
-    top: 0;
+    top: 5px;
     left: 0;
     padding: 10px;
 }
 .date {
     color: grey;
     position: absolute;
-    top: 50px;
+    top: 60px;
     left: 0;
     padding: 10px;
 }
 li > h1 {
     position: absolute;
-    top: 15px;
+    top: 25px;
     left: 0;
     padding: 10px;
 }
