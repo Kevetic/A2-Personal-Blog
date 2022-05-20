@@ -1,0 +1,89 @@
+* {
+    margin: 0 auto;
+}
+.card {
+    border: 1px solid black;
+}
+.card-a {
+    min-height: 100px;
+    width: 50%;
+    border: 3px solid  rgba(238, 238, 238, 1);
+    box-shadow: 5px 5px 5px rgba(238, 238, 238, 1);
+    padding: 80px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.card-a:hover {
+    border: 3px solid  grey;
+    box-shadow: none;
+}
+header {
+    display: flex;
+    align-items: center;
+}
+.title {
+    margin: 0px 0px 10px 0px;
+}
+h1, p {
+    margin: 0;
+}
+.search {
+    text-align: right;
+}
+.card-container {
+    margin: 0 auto;
+    width: 63%;
+}
+.world {
+    color: blue;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+}
+.design {
+    color: green;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+}
+.date {
+    color: grey;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    padding: 10px;
+}
+li > h1 {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    padding: 10px;
+}
+li > p {
+    position: absolute;
+    top: 35%;
+    left: 0;
+    padding: 10px;
+    width: 60%;
+}
+li > a {
+    position: absolute;
+    top: 80%;
+    left: 0;
+    padding: 10px;
+}
+ul {
+    -webkit-columns: 2;
+       -moz-columns: 2;
+            columns: 2;
+    padding-left: 0;
+    list-style: none;
+  }
+  ul li {
+    list-style-position: inside;
+    -webkit-column-break-inside: avoid;
+              page-break-inside: avoid;
+                   break-inside: avoid;
+  }
