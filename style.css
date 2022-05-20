@@ -49,6 +49,7 @@ h1, p {
     width: 80%;
 }
 .world {
+    font-weight: 700;
     color: blue;
     position: absolute;
     top: 5px;
@@ -56,6 +57,7 @@ h1, p {
     padding: 10px;
 }
 .design {
+    font-weight: 700;
     color: green;
     position: absolute;
     top: 5px;
@@ -100,6 +102,14 @@ ul {
     -webkit-column-break-inside: avoid;
               page-break-inside: avoid;
                    break-inside: avoid;
+  }
+  footer {
+      background-color: rgba(238, 238, 238, .2);
+      border-top: 3px solid rgb(88 94 88 / 8%);      
+      padding: 50px;
+      text-align: center;
+      color: gray;
+      margin-top: 20px;
   }
 
   @media only screen and (max-width: 800px) {
