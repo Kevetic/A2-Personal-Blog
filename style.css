@@ -20,6 +20,15 @@
 header {
     display: flex;
     align-items: center;
+    padding: 15px;
+}
+header > a {
+    width: 33.33%;
+    margin: 10px 85px;
+}
+header > h1 {
+    width: 33.33%;
+    text-align: center;
 }
 .title {
     margin: 0px 0px 10px 0px;
@@ -32,7 +41,6 @@ h1, p {
 }
 .card-container {
     margin: 0 auto;
-    width: 63%;
 }
 .world {
     color: blue;
@@ -86,4 +94,32 @@ ul {
     -webkit-column-break-inside: avoid;
               page-break-inside: avoid;
                    break-inside: avoid;
+  }
+
+  @media only screen and (max-width: 700px) {
+    ul {
+        -webkit-columns: 1;
+           -moz-columns: 1;
+                columns: 1;
+        padding-left: 0;
+        list-style: none;
+      }
+      ul li {
+        list-style-position: inside;
+        -webkit-column-break-inside: avoid;
+                  page-break-inside: avoid;
+                       break-inside: avoid;
+      }
+      header {
+        align-items: center;
+        text-align: center;
+    }
+    header > a {
+        width: auto;
+        margin: auto;
+    }
+    header > h1 {
+        width: auto;
+        text-align: auto;
+    }
   }
