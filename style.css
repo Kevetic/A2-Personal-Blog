@@ -111,8 +111,8 @@ ul {
       ul li {
         list-style-position: inside;
         -webkit-column-break-inside: avoid;
-                  page-break-inside: avoid;
-                       break-inside: avoid;
+        page-break-inside: avoid;
+        break-inside: avoid;
       }
       header {
         align-items: center;
